@@ -3,8 +3,6 @@
 **Developed by:** Biruk Tibebe Solomon  
 **Version:** 1.0  
 
-![System Architecture Diagram](https://via.placeholder.com/400x200?text=System+Flow+Diagram) *(Conceptual visualization)*  
-
 ## 📋 Table of Contents  
 1. [System Overview](#-system-overview)  
 2. [Key Features](#-key-features)  
@@ -49,8 +47,4 @@ A robust C++ application designed for efficient vehicle rental management. The s
 - Data integrity validation  
 
 
-### Diagram
-graph TD
-    A[User Interface] --> B[Business Logic]
-    B --> C[Data Storage]
-    C --> D[car_rent.txt]
+
