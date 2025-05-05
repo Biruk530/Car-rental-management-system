@@ -2,7 +2,8 @@
 
 **Developed by:** Biruk Tibebe Solomon  
 **Version:** 1.0  
-**Last Updated:** May 2024  
+
+![System Architecture Diagram](https://via.placeholder.com/400x200?text=System+Flow+Diagram) *(Conceptual visualization)*  
 
 ## 📋 Table of Contents  
 1. [System Overview](#-system-overview)  
@@ -51,20 +52,29 @@ A robust C++ application designed for efficient vehicle rental management. The s
 
 ---
 
+## 🚀 Getting Started  
+
+### 📋 Prerequisites  
+- **Compiler:** GCC/G++ (MinGW for Windows)  
+- **Disk Space:** 500KB minimum  
+- **Permissions:** Read/write access in execution directory  
+
+### ⚙️ Installation  
+```bash
+# Clone repository (if applicable)
+git clone https://example.com/car-rental.git
+
+# Compile with C++11 standards
+g++ -std=c++11 -o rental main.cpp
+
+# Execute program
+./rental
+
 <a id="-technical-specifications"></a>
 ## 💻 Technical Specifications  
-
-### System Architecture  
-```mermaid
-graph TD
-    A[User Interface] --> B[Business Logic]
-    B --> C[Data Storage]
-    C --> D[car_rent.txt].
-
-<a id="-getting-started"></a>
-## 🚀 Getting Started
-```Prerequisites
-
-- GCC/G++ compiler
-- 500KB disk space
-
+  graph TD
+    A[Launch System] --> B[Main Menu]
+    B --> C1[View Cars]
+    B --> C2[Rent Car]
+    B --> C3[Return Car]
+    C2 --> D[Confirm Rental] 
