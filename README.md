@@ -3,18 +3,15 @@
 **Developed by:** Biruk Tibebe Solomon  
 **Version:** 1.0  
 
-![System Architecture Diagram](https://via.placeholder.com/400x200?text=System+Flow+Diagram) *(Conceptual visualization)*  
-
 ## 📋 Table of Contents  
 1. [System Overview](#-system-overview)  
-2. [Key Features](#-key-features)  
-3. [Technical Specifications](#-technical-specifications)  
-4. [Getting Started](#-getting-started)  
-5. [Usage Guide](#-usage-guide)  
-6. [Data Management](#-data-management)  
-7. [Limitations](#-limitations)  
-8. [Roadmap](#-roadmap)  
-9. [Support](#-support)  
+2. [Key Features](#-key-features)
+3. [Data Management](#-data-management)
+4. [Getting Started](#-getting-started) 
+5. [Technical Specifications](#-technical-specifications)  
+6. [Usage Guide](#-usage-guide)  
+7. [Installation](#-installation)  
+8. [Support](#-support)  
 
 ---
 
@@ -45,13 +42,16 @@ A robust C++ application designed for efficient vehicle rental management. The s
 | **Smart Search** | Find cars by ID or partial model name |  
 | **Rental Processing** | Single-step rent/return operations |  
 
+<a id="-data-management"></a>
 ### 🔄 Data Handling  
 - Automatic daily backup creation  
 - Conflict-free concurrent access prevention  
 - Data integrity validation  
+- **ID Model PricePerDay IsRented**
+  - [integer] [string] [double] [0/1]
 
 ---
-
+<a id="-getting-started"></a>
 ## 🚀 Getting Started  
 
 ### 📋 Prerequisites  
@@ -59,6 +59,7 @@ A robust C++ application designed for efficient vehicle rental management. The s
 - **Disk Space:** 500KB minimum  
 - **Permissions:** Read/write access in execution directory
 
+<a id="-technical-specifications"></a>
 ## 💻 Technical Specifications  
 ### System Architecture  
 ```mermaid
@@ -69,7 +70,15 @@ A robust C++ application designed for efficient vehicle rental management. The s
     B --> C3[Return Car]
     C2 --> D[Confirm Rental]
 ```
+<a id="-usage-guide"></a>
 
+## Usage Guide
+Workflow Example
+- Launch system
+- Select operation from menu
+- Follow on-screen prompts
+
+<a id="-installation"></a>
 ### ⚙️ Installation  
 ```bash
 # Clone repository (if applicable)
@@ -80,5 +89,17 @@ g++ -std=c++11 -o rental main.cpp
 
 # Execute program
 ./rental
+```
+
+<a id="-support"></a>
+## 📧 Support & Contact
+- 🛠️ Technical Support
+**Email**: biruksolomonti.com
+**Hours**: Mon-Fri 9AM-5PM 
+
+- ✉️ Developer Contact
+**Biruk Tibebe Solomon**
+**📧biruksolomonti@gmail.com**
+
 
  
