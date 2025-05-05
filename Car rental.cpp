@@ -11,7 +11,7 @@ struct Car {
     bool isRented = false;
 };
 
-const int MAX_CARS = 50;
+const int MAX_CARS = 5000;
 Car cars[MAX_CARS];
 int numCars = 0;
 
