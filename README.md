@@ -2,8 +2,7 @@
 
 **Developed by:** Biruk Tibebe Solomon  
 **Version:** 1.0  
-
-![System Architecture Diagram](https://via.placeholder.com/400x200?text=System+Flow+Diagram) *(Conceptual visualization)*  
+**Last Updated:** May 2024  
 
 ## 📋 Table of Contents  
 1. [System Overview](#-system-overview)  
@@ -18,6 +17,7 @@
 
 ---
 
+<a id="-system-overview"></a>
 ## 🌟 System Overview  
 
 A robust C++ application designed for efficient vehicle rental management. The system provides:  
@@ -34,6 +34,7 @@ A robust C++ application designed for efficient vehicle rental management. The s
 
 ---
 
+<a id="-key-features"></a>
 ## ✨ Key Features  
 
 ### 🖥️ Dashboard Operations  
@@ -48,9 +49,22 @@ A robust C++ application designed for efficient vehicle rental management. The s
 - Conflict-free concurrent access prevention  
 - Data integrity validation  
 
+---
 
-### Diagram
+<a id="-technical-specifications"></a>
+## 💻 Technical Specifications  
+
+### System Architecture  
+```mermaid
 graph TD
     A[User Interface] --> B[Business Logic]
     B --> C[Data Storage]
-    C --> D[car_rent.txt]
+    C --> D[car_rent.txt].
+
+<a id="-getting-started"></a>
+## 🚀 Getting Started
+```Prerequisites
+
+- GCC/G++ compiler
+- 500KB disk space
+
