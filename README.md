@@ -60,13 +60,12 @@ A robust C++ application designed for efficient vehicle rental management. The s
 - **Permissions:** Read/write access in execution directory
 
 ## 💻 Technical Specifications  
-  graph TD
+ graph TD
     A[Launch System] --> B[Main Menu]
     B --> C1[View Cars]
     B --> C2[Rent Car]
     B --> C3[Return Car]
     C2 --> D[Confirm Rental]
-
 ### ⚙️ Installation  
 ```bash
 # Clone repository (if applicable)
