@@ -16,6 +16,7 @@
 
 ---
 
+<a id="-system-overview"></a>
 ## 🌟 System Overview  
 
 A robust C++ application designed for efficient vehicle rental management. The system provides:  
@@ -32,6 +33,7 @@ A robust C++ application designed for efficient vehicle rental management. The s
 
 ---
 
+<a id="-key-features"></a>
 ## ✨ Key Features  
 
 ### 🖥️ Dashboard Operations  
@@ -46,5 +48,14 @@ A robust C++ application designed for efficient vehicle rental management. The s
 - Conflict-free concurrent access prevention  
 - Data integrity validation  
 
+---
 
+<a id="-technical-specifications"></a>
+## 💻 Technical Specifications  
 
+### System Architecture  
+```mermaid
+graph TD
+    A[User Interface] --> B[Business Logic]
+    B --> C[Data Storage]
+    C --> D[car_rent.txt]
