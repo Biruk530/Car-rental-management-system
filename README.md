@@ -57,7 +57,15 @@ A robust C++ application designed for efficient vehicle rental management. The s
 ### 📋 Prerequisites  
 - **Compiler:** GCC/G++ (MinGW for Windows)  
 - **Disk Space:** 500KB minimum  
-- **Permissions:** Read/write access in execution directory  
+- **Permissions:** Read/write access in execution directory
+
+## 💻 Technical Specifications  
+  graph TD
+    A[Launch System] --> B[Main Menu]
+    B --> C1[View Cars]
+    B --> C2[Rent Car]
+    B --> C3[Return Car]
+    C2 --> D[Confirm Rental]
 
 ### ⚙️ Installation  
 ```bash
@@ -70,11 +78,4 @@ g++ -std=c++11 -o rental main.cpp
 # Execute program
 ./rental
 
-<a id="-technical-specifications"></a>
-## 💻 Technical Specifications  
-  graph TD
-    A[Launch System] --> B[Main Menu]
-    B --> C1[View Cars]
-    B --> C2[Rent Car]
-    B --> C3[Return Car]
-    C2 --> D[Confirm Rental] 
+ 
